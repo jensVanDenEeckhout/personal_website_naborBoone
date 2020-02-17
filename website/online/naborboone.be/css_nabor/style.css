@@ -5,7 +5,7 @@ html, body {
       padding: 0;
       width: 100%;
       height: 100%;
-      font-family: "Roboto Mono" !important;
+      font-family: "Verdana" !important;
       background: #1a1a1a !important;
       color: #fff !important;
 
@@ -19,12 +19,12 @@ html, body {
 
 .whitespace {
       width: 100%;
-      height: 100px;
+      height: 50px;
 }
 
 @media(max-width: 768px) {
       .whitespace {
-            display: none;
+            height: 10px;
       }
 }
 
@@ -70,6 +70,7 @@ justify-items: stretch;
       display:grid;
       grid-template-columns:auto auto;
       grid-template-rows: 100%;
+      align-self: start;
 }
 
 .three_column_section .one_column_section .heading h2{
@@ -132,7 +133,7 @@ justify-items: stretch;
                   width: 0;
             }
             to {
-                  width: 17em;
+                  width: 13em;
             }
       }
 }
@@ -337,6 +338,7 @@ justify-items: stretch;
             letter-spacing: -2px;
             line-height: 58px;
             margin-top: 100px;
+            font-weight: 500;
       }
 
 
@@ -368,18 +370,18 @@ justify-items: stretch;
 
       @media(max-width: 768px) {
             .header h1 {
-                  font-size: 15px;
-                  line-height: 19px;
+                  font-size: 25px;
+                  line-height: 36px;
                   font-weight: bolder;
-                  letter-spacing: -2px;
+                  letter-spacing: 1px;
             }
             .brandnumber p{
                   letter-spacing: 0px;
-                  word-spacing: -5px;
+                  
             }
             .hero{
                   height: 55vh;
-                  margin-bottom:150px;
+                  margin-bottom:75px;
             }
             .three_column_section{
                   margin-top:100px;
@@ -391,7 +393,7 @@ justify-items: stretch;
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
       position: absolute;
-      left: 49%;
+      left: 48.5%;
       bottom: 100px;
       display: block;
       text-align: center;
@@ -399,8 +401,8 @@ justify-items: stretch;
       z-index: 0;
       text-decoration: none;
       text-shadow: 0;
-      width: 13px;
-      height: 13px;
+      width: 15px;
+      height: 15px;
       border-bottom: 2px solid #fff;
       border-right: 2px solid #fff;
       -webkit-transform: translate(-50%, 0) rotate(45deg);
@@ -449,6 +451,7 @@ h6 {
 .project1, .project2, .project3, .project4 {
       text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
+
 .odd{
       border-radius: 20px 0px 0px 20px;
 }
@@ -463,8 +466,8 @@ h6 {
 
 .project1::after {
       content: "Projecten";
-      font-family: "Roboto Mono";
-      font-size: 36px;
+      font-family: "Verdana";
+      font-size: 48px;
       position: relative;
       color: #fff;
       display: block;
@@ -489,14 +492,14 @@ h6 {
 }
 
 .project2 {
-      background: url('../images_nabor/mainPage/1.png') no-repeat 50% 50%;
+      background: url('../images_nabor/slideshow/sanitair1.jpg') no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project2::after {
       content: "Sanitair";
-      font-family: "Roboto Mono";
-      font-size: 36px;
+      font-family: "Verdana";
+      font-size: 60px;
       position: relative;
       color: #fff;
       display: block;
@@ -506,14 +509,14 @@ h6 {
 }
 
 .project3 {
-      background: url('../images_nabor/mainPage/2.jpg') no-repeat 50% 50%; 
+      background: url('../images_nabor/slideshow/elektriciteit.png') no-repeat 50% 50%; 
       background-size: cover;
 }
 
 .project3::after {
       content: "Elektriciteit";
-      font-family: "Roboto Mono";
-      font-size: 36px;
+      font-family: "Verdana";
+      font-size: 60px;
       position: relative;
       color: #fff;
       display: block;
@@ -524,23 +527,24 @@ h6 {
 }
 
 .project4 {
-      background: url('../images_nabor/mainPage/3.jpg') no-repeat 50% 50%; 
+      background: url('../images_nabor/slideshow/vloerverwarming.jpg') no-repeat 50% 50%; 
       background-size: cover;
 }
 
 .project4::after {
-      content: "Centrale verwarming.";
-      font-family: "Roboto Mono";
-      font-size: 36px;
+      content: "Vloer verwarming";
+      font-family: "Verdana";
+      font-size: 60px;
       position: relative;
       color: #fff;
       display: block;
-      top: 70%;
+      top: 63%;
 
       right: 0;
       bottom: 0;
            
 }
+
 
 @media(max-width: 768px) {
       .project {
@@ -554,8 +558,12 @@ h6 {
       }
 
       .project1::after, .project2::after, .project3::after, .project4::after {
-           
+         font-size: 47px;    
       }
+      .project4::after{
+            top: 60%;
+      }
+
 }
 
 /*--------------- footer section --------------- */
@@ -777,3 +785,64 @@ textarea:focus {
 .next p {
       text-align: right;
 }
+
+
+
+#certificaten{
+      margin:20px;
+      display: grid;
+
+      grid-template-columns: repeat(4, auto);
+      grid-template-rows: repeat(2, auto);
+
+      justify-content: center;
+      justify-items: center;
+
+      grid-row-gap: 5px;
+      grid-column-gap: 5px;
+}
+
+
+      #certificaten{
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(5, auto);
+
+      margin:20px;
+
+      justify-content: center;
+      justify-items: center;
+
+      grid-row-gap: 5px;
+      grid-column-gap: 5px;
+      }
+      .certificaten-heading{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 1; 
+      }
+      .certificaat1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 2;
+      }
+      .certificaat2{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 3;
+      }
+      .certificaat3{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 4;
+      }
+      .certificaat4{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 5;
+      }

@@ -6,7 +6,7 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <meta name="author" content="Nabor Boone">
 
-      <title>Nabor Boone - Sanitair & Verwarming</title>
+      <title>Sanitair Herdersem - Verwarming Herdersem / Nabor Boone</title>
 
       <!-- stylesheet -->
       <link rel="stylesheet" href="css_nabor/style.css">
@@ -32,12 +32,15 @@
       <link rel="stylesheet" href="css_nabor/slippry.css">
       <script src="scripts_nabor/slippry.min.js"></script>
 
+      <link rel="stylesheet" href="css_nabor/form.css">
+      <script src="scripts_nabor/form.js"></script>  
+
 </head>
 <body>
       <div class="wrapper">
 
             <!--------------- navbar starts here --------------->
-            <nav>
+            <nav style="background-color: #1a1a1a;">
                   <span class="brand brandname">
                         <a href="index.html" style="color:#FFFFE0;">Nabor Boone</a>
 
@@ -49,9 +52,9 @@
 
                   <ul id="menu">
 
-                        <li><a href="pages/projecten/projecten.html" style="color:#f44336;"><i >Projecten</i></a></li>
-                        <li><a href="about.html" style="color:#f44336">Certificaten</a></li>
-                        <li><a href="contact.html" style="color:#f44336">Contact</a></li>
+                        <!--<li><a href="pages/projecten/projecten.html" style="color:#f44336;"><i >Projecten</i></a></li>-->
+                        <li ><a style="color:#f44336" onclick="window.location.hash='certificaten'; ">Certificaten</a></li>
+                        <li><a onclick="window.location.hash='form-main'; " style="color:#f44336">Contact</a></li>
                   </ul>
 
                   <div id="toggle">
@@ -64,8 +67,12 @@
                   <div class="close-btn">close</div>
 
                   <ul id="menu">
-                        <li><a href="index.html">Projecten<span></span></a></li>
-                        <li><a href="contact.html">Contact<span></span></a></li>
+                        <!--<li><a href="index.html">Projecten<span></span></a></li>-->
+                        <li><a onclick="window.location.hash='sanitair'; ">Sanitair<span></span></a></li>
+                        <li><a onclick="window.location.hash='verwarming'; ">Verwarming<span></span></a></li>
+                        <li><a onclick="window.location.hash='elektriciteit'; ">Elektriciteit<span></span></a></li>
+                        <li class="whitespace"></li>
+                        <li><a onclick="window.location.hash='form-main'; ">Contact<span></span></a></li>
                   </ul>
             </div>
             <!--------------- navbar ends here --------------->
@@ -78,9 +85,7 @@
                         <h1 class="line anim-typewriter">Sanitair, Verwarming</h1>
                   </div>
 
-                  <div class="slideshow">
-
-                        </div>
+                  
 
                         <section class="demo_wrapper">
            
@@ -91,10 +96,13 @@
                                                 </div>
                                           -->
                                           <ul id="demo1">
-                                                <li><a href="#slide1"><img src="images_nabor/slideshow/sanitair.png" alt="Sanitair"></a></li>
+                                                <li><img src="images_nabor/slideshow/sanitair1.jpg" alt="Sanitair"></li>
 
+                                                <li><img src="images_nabor/slideshow/vloerverwarming.jpg" alt="Vloer verwarming"></li>
 
-                                                <li><a href="#slide3"><img src="images_nabor/slideshow/centraleVerwarming.png" alt="Centrale <a href='#link'>verwarming</a>"></a>
+                                                <li><img src="images_nabor/slideshow/sanitair2.jpg" alt="Sanitair"></li>
+
+                                                <li><img src="images_nabor/slideshow/centraleVerwarming.png" alt="Centrale verwarming">
 
                                             
                                           </li>
@@ -108,7 +116,7 @@
 
 
 
-            <div class="scroll-down"></div>
+            <!--<div class="scroll-down"></div>-->
             <!--------------- hero section ends here --------------->
 
 
@@ -119,9 +127,11 @@
             <div class="whitespace"></div>
 
             <div class="container-fluid">
-                  <br><br><br>
-
-                  <h6>Overzicht projecten</h6>
+                  
+                  <p style="margin: 20px 10% 50px 10%;font-weight: 900;" >
+                        Bij ons kan u terecht voor: nieuwe en/of te renoveren installaties, ontkalkers, zonnepanelen, onderhoud op gasketels, gas installaties, voor een mazoutinstallatie naar een gasinstallatie, badkamerrenovatie, boilers
+                  </p>
+                  <h6>Overzicht</h6>
 
                   <div class="vertical"></div>
                   <br>
@@ -137,52 +147,65 @@
                                     <img src="images_nabor/threeColumns/2_stroke/1.png">    
                               </div>
                               
-                              <p> Goede sanitaire voorzieningen zijn essentieel in een huis. Daarvoor biedt NaborBoone alle nodige materialen voor badkamer, keuken en wc. met een ruim aanbod aan kranen: van keuken-, douche- en badkranen. Installeer je badkamer met een douche, lavabo of ligbad en werk af met de juiste badkameraccessoires. Ook het kleinste kamertje in huis vergeet ik niet. Kies uit een ruim aanbod WC-packs, -potten, -zittingen en -accessoires. Hiernaast bied ik technisch sanitair aan zoals <strong style="color:rgb(255, 215, 0)">boilers</strong>. Tot slot vind je hier alles wat je nodig hebt om je <strong style="color:#f44336;">centrale verwarming</strong> aan te sluiten.</p>
+                              <p> Goede sanitaire voorzieningen zijn essentieel in een huis. Daarvoor biedt NaborBoone alle nodige materialen voor badkamer, keuken en wc. met een ruim aanbod aan kranen: van keuken-, douche- en badkranen. Installeer je badkamer met een douche, lavabo of ligbad en werk af met de juiste badkameraccessoires. Ook het kleinste kamertje in huis vergeet ik niet. Kies uit een ruim aanbod WC-packs, -potten, -zittingen en -accessoires. Hiernaast bied ik technisch sanitair aan zoals boilers. Tot slot vind je hier alles wat je nodig hebt om jecentrale verwarming aan te sluiten.</p>
                         </div>
                         <div class="one_column_section">
                               <div class="heading">                              
                                     <h2> Verwarming </h2>
                                     <img src="images_nabor/threeColumns/2_stroke/3.png"> 
                               </div>
-                              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe molestias tempora repudiandae nam, sequi. Fugiat sunt quasi facilis asperiores sint.</p>                              
+                              <p> Vloerverwarming is niet alleen heerlijk in de wintermaanden, ook in de zomermaanden geniet u van vloerverwarming. In de zomermaanden heeft u de mogelijkheid om koud water door het systeem te laten lopen wat zorgt voor verkoeling. Afhankelijk van de ondergrond van uw woning heeft u de keuze uit twee type vloerverwarming:</p>                              
                         </div>
+
+                        <div class="one_column_section">
+                              <div class="heading">                              
+                                    <h2> Gas boiler </h2>
+                                    <img src="images_nabor/other/icons/4_gas.png"> 
+                              </div>
+                              <p> Een boiler is in zijn meest eenvoudige vorm, een goed geïsoleerd voorraadvat waarin een bepaalde hoeveelheid leidingwater wordt opgeslagen en op temperatuur wordt gehouden. Met uitzondering van een gasboiler wordt het water in het boilervat continu op taptemperatuur gehouden zodat de gebruiker onmiddellijk over warm water kan beschikken. </p>                              
+                        </div>
+
+
+
+
                   </div>
 
 
 
                   <div class="row">
                         <div class="col-lg-8"></div>
-                        
+                        <!--
                         <div class="col-lg-4 project project1 wow fadeInUp odd" onclick="location.href='projecten.html'">
                               <a href="pages/projecten/projecten.html"><button>Bekijk Projecten</button></a>
                         </div>
+                  -->
 
                   </div>
 
                   <div class="whitespace"></div>
 
-                  <div class="row">
-                        <div class="col-lg-6 project project2 wow fadeInUp even" onclick="location.href='project.html'"></div>
+                  <div id="sanitair" class="row">
+                        <div class="col-lg-6 project project2 wow fadeInUp even" ></div>
 
                         <div class="col-lg-6"></div>
                   </div>
 
                   <div class="whitespace"></div>
 
-                  <div class="row ">
+                  <div id="elektriciteit" class="row ">
                         <div class="col-lg-7"></div>
 
-                        <div class="col-lg-5 project project3 wow fadeInUp odd" onclick="location.href='project.html'"></div>
+                        <div class="col-lg-5 project project3 wow fadeInUp odd"></div>
 
                         <div class="col-lg-1"></div>
                   </div>
 
                   <div class="whitespace"></div>
 
-                  <div class="row">
+                  <div id="verwarming" class="row">
 
 
-                        <div class="col-lg-5 project project4 wow fadeInUp even" onclick="location.href='project.html'"></div>
+                        <div class="col-lg-5 project project4 wow fadeInUp even"></div>
 
                         <div class="col-lg-6"></div>
                   </div>
@@ -190,7 +213,18 @@
                   <div class="whitespace"></div>
             </div>
             <!--------------- projects section ends here --------------->
+            <div id="certificaten">
 
+                  <h2 class="certificaten-heading">certificaten</h2>
+                  
+                        <div class="certificaat1">Centrale verwarmingsinstallateur</div>
+                        <div class="certificaat2">Sanitair installateur</div>
+                        <div class="certificaat3">Asbest technieken</div>
+                        <div class="certificaat4">Gasvormige brandstoffen, module GI</div>
+
+                  
+
+            </div>
 
 
             <!--------------- footer starts here --------------->
@@ -201,7 +235,7 @@
                         <div class="collab">
                               <div class="row">
                                     <div class="col-lg-12">
-                                          <a href="contact" style="color:#90ee90"><p class="wow fadeInUp hoverRed">Vraag hier u gratis offerte aan.</p></a>
+                                          <a onclick="window.location.hash='form-main'; " style="color:#f44336"><p class="wow fadeInUp hoverRed">Vraag hier u gratis offerte aan.</p></a>
                                     </div>
                               </div>
                         </div>
@@ -217,8 +251,8 @@
                         <div class="info">
                               <div class="row">
                                     <div class="col-lg-4" id="personal">
-                                          <p class="wow fadeInUp">gsm nummer</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s" style="color:#ffd700" >0479 05 43 78</h4>
+                                          <p class="wow fadeInUp" >gsm nummer</p>
+                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s" style="color:#f44336" >0479 05 43 78</h4>
                                           <br><br>
                                     </div>
 
@@ -226,7 +260,7 @@
                                           <p class="wow fadeInUp" data-wow-delay="0s">BTW nummer</p>
 
                                           <ul>
-                                                <li  class="wow fadeInUp" data-wow-delay="1s" style="color:#90ee90" >BE0690.575.388</li>
+                                                <li  class="wow fadeInUp" data-wow-delay="1s" style="color:#f44336" >BE0690.575.388</li>
                                           </ul>
 
                                           <br><br>
@@ -234,7 +268,7 @@
 
                                     <div class="col-lg-4" id="address">
                                           <p class="wow fadeInUp" data-wow-delay="0s">e-mail</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s" style="color:#afeeee">naborboone@live.be</h4>
+                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s" style="color:#f44336">naborboone@live.be</h4>
                                           <br><br>
                                     </div>
                               </div>
@@ -242,6 +276,36 @@
                   </div>
             </div>
             <!--------------- footer ends here --------------->
+
+                        <div class="hr">
+                              <div class="row"></div>
+                        </div>
+                        <div class="whitespace"></div>
+                         <div style="margin-top:20px;" class="form">
+                        <h2 style="text-align:center">Contacteer mij</h2>
+<div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1" action="mailto:naborboone@live.be" method="post" enctype="text/plain">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
 
             <br><br><br><br>
 

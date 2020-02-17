@@ -15,3 +15,7 @@
 .demo_block img{
 	border-radius: 30%;
 }
+
+.demo_block .sy-caption {
+	font-weight: 900;
+}
