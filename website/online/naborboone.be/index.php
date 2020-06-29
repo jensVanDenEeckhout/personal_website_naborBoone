@@ -134,13 +134,13 @@
 
 
             <!--------------- hero section starts here --------------->
-            <div class="hero">
-                  <div class="header">
-                        <h1 class="line anim-typewriter">Sanitair, Verwarming</h1>
+            <div class="col-12">
+                  <div class="header row">
+                        <h1 class="line anim-typewriter" style="margin-top:110px;">Sanitair, Verwarming</h1>
                   </div>
 
                   
-
+                  <div>
                         <section class="demo_wrapper">
            
                                     <article class="demo_block">
@@ -151,14 +151,10 @@
                                           -->
                                           <ul id="demo1">
                                                 <li><img src="images_nabor/slideshow/sanitair1.jpg" alt="Sanitair"></li>
-
                                                 <li><img src="images_nabor/slideshow/vloerverwarming.jpg" alt="Vloer verwarming"></li>
-
                                                 <li><img src="images_nabor/slideshow/sanitair2.jpg" alt="Sanitair"></li>
-
                                                 <li><img src="images_nabor/slideshow/centraleVerwarming.png" alt="Centrale verwarming">
 
-                                            
                                           </li>
                                           </ul>
                                     </article>
@@ -181,10 +177,11 @@
             <div class="whitespace"></div>
 
             <div class="container-fluid">
-                  
-                  <p style="margin: 20px 10% 50px 10%;font-weight: 900;" >
-                        Bij ons kan u terecht voor: nieuwe en/of te renoveren installaties, ontkalkers, zonnepanelen, onderhoud op gasketels, gas installaties, voor een mazoutinstallatie naar een gasinstallatie, badkamerrenovatie, boilers
-                  </p>
+                  <div class="row">
+                        <p style="margin: 20px 10% 50px 10%;font-weight: 900;" >
+                              Bij ons kan u terecht voor: nieuwe en/of te renoveren installaties, ontkalkers, zonnepanelen, onderhoud op gasketels, gas installaties, voor een mazoutinstallatie naar een gasinstallatie, badkamerrenovatie, boilers
+                        </p>
+                  </div>
                   <h6>Overzicht</h6>
 
                   <div class="vertical"></div>
